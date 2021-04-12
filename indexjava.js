@@ -12,6 +12,7 @@ document.querySelectorAll("img")[1].setAttribute("src", "images/dice"+randomNumb
 
 if (randomNumber1 > randomNumber2){
   document.querySelector("h1").innerHTML = "🤗Player 1 Win!";
+  document.querySelector("h2").innerHTML = "Refresh to play again";
 }
 else if (randomNumber1 < randomNumber2){
   document.querySelector("h1").innerHTML = "🤗Player 2 Win";
